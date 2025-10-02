@@ -154,16 +154,16 @@
     }
 
     .glowing-bg {
-        filter: blur(150px);
+        filter: blur(100px);
     }
 
     .glowing-bg__dark-blue {
         top: unset;
         bottom: 0;
         left: unset;
-        right: calc(0% - 150.6px);
+        right: calc(0% - 270.6px);
         border-radius: 547.2px;
-        background: rgba(0, 71, 255, 0.40);
+        background: rgba(0, 71, 255, 0.60);
     }
 
     .glowing-bg__pink {
