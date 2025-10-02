@@ -1,0 +1,193 @@
+@media (max-width: 1750px) {
+
+    .container{
+        gap: 20px;
+    }
+
+    html {
+        padding-top: 40px;
+    }
+
+    .logo {
+        width: 140px;
+        height: 80px;
+    }
+
+    .hero__img {
+        width: 642px;
+        height: 329px;
+    }
+
+    .cta-wrapper {
+        align-self: center;
+        position: relative;
+        left: -20px;
+    }
+
+    .cta {
+        padding: 13px 20px;
+        gap: 10px;
+    }
+
+    .cta--download {
+        padding-right: 80px;
+    }
+
+    .cta__title {
+        font-size: 14px;
+    }
+
+    .cta__text {
+        font-size: 12px;
+    }
+
+    .qr-code {
+        position: relative;
+        top: 3px;
+        width: 60px;
+        height: 60px;
+    }
+
+    .cta__btn--whatsapp {
+        width: 180px;
+    }
+
+    .cta__phones {
+        right: -65px;
+    }
+
+    .phones-img {
+        width: 146.609px;
+        height: 150px;
+    }
+}
+
+@media (max-width: 1260px) {
+
+    html {
+        padding-top: 80px;
+    }
+
+    .hidden-tablet {
+        display: none;
+    }
+
+    .visible-tablet {
+        display: flex;
+    }
+
+    .logo {
+        width: 176px;
+        height: 100px;
+    }
+
+    .glowing-bg__pink {
+        width: 695.836px;
+        height: 695.836px;
+        border-radius: 695.836px;
+        top: 0%;
+        right: calc(0% - 347.918px);
+    }
+
+    .glowing-bg__dark-blue {
+        width: 547.2px;
+        height: 547.2px;
+        border-radius: 547.2px;
+        top: 25%;
+        left: 0%;
+    }
+
+    .glowing-bg__light-blue {
+        display: none;
+    }
+
+    .hero {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .hero__configurator {
+        border-radius: 24px;
+        border: 5px solid rgba(255, 255, 255, 0.10);
+    }
+
+    .hero__img {
+        height: 416.198px;
+        width: auto;
+        align-self: stretch;
+        aspect-ratio: 802.00/416.20;
+    }
+
+    .cta-wrapper{
+        left: unset;
+    }
+
+    .cta {
+        padding: 16px 16px 32px 16px;
+        border-radius: 24px 24px 0 0;
+    }
+
+    .cta--tablet {
+        gap: 24px;
+    }
+
+    .cta__block {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .cta__btn--whatsapp {
+        width: 100%;
+    }
+}
+
+@media (max-width: 831px) {
+
+    html {
+        padding-top: 20px;
+    }
+
+    .glowing-bg{
+        filter: blur(150px);
+    }
+
+    .glowing-bg__dark-blue {
+        top: unset;
+        bottom: 0;
+        left: unset;
+        right: calc(0% - 150.6px);
+        border-radius: 547.2px;
+        background: rgba(0, 71, 255, 0.40);
+    }
+
+    .glowing-bg__pink {
+        display: none;
+    }
+
+    .hero__img {
+        height: auto;
+        min-height: 178px;
+        max-height: 320px;
+        align-self: stretch;
+        aspect-ratio: 343/178;
+    }
+
+    .cta-wrapper {
+        width: 100%;
+        max-width: 450px;
+    }
+
+    .cta--tablet {
+        width: 100%;
+    }
+
+    .cta__btn--store {
+        width: 50%;
+        min-width: 158px;
+    }
+}
