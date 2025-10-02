@@ -1,11 +1,8 @@
 @media (max-width: 1750px) {
 
-    .container{
-        gap: 20px;
-    }
-
-    html {
+    .container {
         padding-top: 40px;
+        gap: 20px;
     }
 
     .logo {
@@ -19,9 +16,10 @@
     }
 
     .cta-wrapper {
-        align-self: center;
+        justify-content: center;
         position: relative;
         left: -20px;
+        width: 640px;
     }
 
     .cta {
@@ -60,20 +58,23 @@
         width: 146.609px;
         height: 150px;
     }
+
+    .glowing-bg{
+        max-width: unset;
+    }
 }
 
 @media (max-width: 1260px) {
-
-    html {
-        padding-top: 80px;
-    }
-
     .hidden-tablet {
         display: none;
     }
 
     .visible-tablet {
         display: flex;
+    }
+
+    .container {
+        padding-top: 80px;
     }
 
     .logo {
@@ -121,7 +122,7 @@
         aspect-ratio: 802.00/416.20;
     }
 
-    .cta-wrapper{
+    .cta-wrapper {
         left: unset;
     }
 
@@ -148,11 +149,11 @@
 
 @media (max-width: 831px) {
 
-    html {
+    .container {
         padding-top: 20px;
     }
 
-    .glowing-bg{
+    .glowing-bg {
         filter: blur(150px);
     }
 
